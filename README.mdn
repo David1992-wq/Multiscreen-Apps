@@ -1,0 +1,33 @@
+*#News Browser*
+
+A simple Android app that fetches the New York Times Top Stories and displays them in a scrollable list with thumbnails. Tapping an article opens a detail screen with the abstract and a link to the full story. Built for students learning Android with Kotlin.
+
+Table of Contents
+Installation
+Usage
+Contributing
+License
+
+**Installation**
+Clone or download the project and open it in Android Studio.
+Add the dependencies from build-gradle-additions.txt to your Gradle files (AsyncHttpClient, kotlinx-serialization, Glide, RecyclerView) and apply the serialization plugin.
+Copy the entries from AndroidManifest-additions.xml into your AndroidManifest.xml (internet permission and DetailActivity).
+Get a free API key from developer.nytimes.com with the Top Stories API enabled.
+In MainActivity.kt, replace YOUR_NYT_API_KEY with your key.
+Sync Gradle and run the app on an emulator or device.
+
+**Usage**
+Launch the app to load the latest Top Stories into a RecyclerView.
+Scroll through the articles, each showing a thumbnail, title, and byline.
+Tap an article to open the detail screen, then use the button to read the full story in your browser.
+
+**Contributing**
+Fork the repository.
+Create a feature branch (git checkout -b feature/your-feature).
+Commit your changes (git commit -m "Add your feature").
+Push the branch (git push origin feature/your-feature).
+Open a pull request.
+
+**License**
+
+This project is licensed under the MIT License.
